@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ponta Do Sol Eventos</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="build/css/app.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="contenedor contenido__header">
+        <h1>Ponta do Sol Eventos</h1>
+        <nav class="navegacion__principal">
+          <a href="#lineup">Line Up</a>
+          <a href="#galeria">Galeria</a>
+          <a href="#servicios">Servicios</a>
+        </nav>
+      </div>
+    </header>
+
+    <div class="video">
+      <div class="overlay">
+        <div class="contenedor contenido__video">
+          <h2>Nuestro tercer evento</h2>
+          <p>Ven y vive la experiencia</p>
+          <br />
+          <br />
+          <br />
+          <br />
+          <p>El 23/09/2023</p>
+        </div>
+      </div>
+      <video autoplay muted loop>
+        <source src="video/concierto.mp4" type="video/mp4" />
+        <source src="video/concierto.ogg" type="video/ogg" />
+        <source src="video/concierto.webm" type="video/webm" />
+      </video>
+    </div>
+    <section class="contenedor sobre__festival">
+      <div class="imagen__festival">
+        <picture>
+          <source srcset="build/img/imagen_vocalista.avif" type="image/avif" />
+          <source srcset="build/img/imagen_vocalista.webp" type="image/webp" />
+          <img
+            loading="lazy"
+            width="200"
+            height="300"
+            src="build/img/imagen_vocalista.jpg"
+            alt="imagen__festival"
+          />
+        </picture>
+      </div>
+      <div class="contenido__festival">
+        <h2 class="titulo__contenido__festival">
+          Nuestro tercer evento, Ponta do Sol
+        </h2>
+        <p class="contenido__fecha parrafo__contenido__festival">
+          23 de Septiembre del 2023, Carabobo - Puerto Cabello
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore eius
+          odit harum error quo atque fuga adipisci fugit? Explicabo
+          reprehenderit maxime architecto eaque aspernatur laboriosam.
+        </p>
+      </div>
+    </section>
+    <section id="lineup" class="lineup">
+      <h3>Line Up</h3>
+      <p class="dia">Sabado 23</p>
+      <div class="escenarios__contenedor contenedor">
+        <div class="escenario rock bg_amarillo">
+          <p class="nombre_escenario">Escenario Dj's</p>
+          <ul class="calendario">
+            <li>Hora | <span>Nombre Dj</span></li>
+            <li>Hora | <span>Nombre Dj</span></li>
+            <li>Hora | <span>Nombre Dj</span></li>
+            <li>Hora | <span>Nombre Dj</span></li>
+            <li>Hora | <span>Nombre Dj</span></li>
+            <li>Hora | <span>Nombre Dj</span></li>
+          </ul>
+        </div>
+    </section>
+    <section id="galeria" class="galeria contenedor">
+      <h3>Galeria</h3>
+
+      <ul class="galeria_imagenes"></ul>
+    </section>
+    <section id="servicios" class="servicios bg_verde">
+      <h3>Servicios</h3>
+      <div class="contenedor contenedor_servicios">
+        <div class="basicos pase">
+          <p class="nombre_servicios">Servicios Basicos</p>
+          <header class="pase_header">
+            <p>Nombre del servicio</p>
+          </header>
+          <div class="pase_body">
+            Descripcion del servicio
+          </div>
+          <footer class="pase_footer">
+            <p>Precio del servicio</p>
+          </footer>
+          <header class="pase_header">
+            <p>Nombre del servicio</p>
+          </header>
+          <div class="pase_body">
+            Descripcion del servicio
+          </div>
+          <footer class="pase_footer">
+            <p>Precio del servicio</p>
+          </footer>
+          <header class="pase_header">
+            <p>Nombre del servicio</p>
+          </header>
+          <div class="pase_body">
+            Descripcion del servicio
+          </div>
+          <footer class="pase_footer">
+            <p>Precio del servicio</p>
+          </footer>
+        </div>
+        <div class="premium pase">
+          <p class="nombre_servicios">Servicios Premium</p>
+          <header class="pase_header">
+            <p>Nombre del servicio</p>
+          </header>
+          <div class="pase_body">
+            Descripcion del servicio
+          </div>
+          <footer class="pase_footer">
+            <p>Precio del servicio</p>
+          </footer>
+          <header class="pase_header">
+            <p>Nombre del servicio</p>
+          </header>
+          <div class="pase_body">
+            Descripcion del servicio
+          </div>
+          <footer class="pase_footer">
+            <p>Precio del servicio</p>
+          </footer>
+          <header class="pase_header">
+            <p>Nombre del servicio</p>
+          </header>
+          <div class="pase_body">
+            Descripcion del servicio
+          </div>
+          <footer class="pase_footer">
+            <p>Precio del servicio</p>
+          </footer>
+        </div>
+        
+      </div>
+    </section>
+    <footer class="footer">
+      <p>Ponta do Sol Eventos. Todos los derechos reservados 2023©.</p>
+      <p class="empresa">Soluciones Tecnologicas Gomandev C.A 2023©.</p>
+    </footer>
+    <script src="build/js/app.js"></script>
+  </body>
+</html>
